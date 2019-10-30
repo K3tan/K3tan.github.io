@@ -1,5 +1,4 @@
 [build]
-publish = "public"
 command = "npm install -g postcss-cli && npm install -g autoprefixer"
 
 [context.production.environment]
