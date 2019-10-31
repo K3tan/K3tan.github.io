@@ -1,3 +1,6 @@
 [submodule "themes/hugo-theme-tailwindcss-starter"]
 	path = themes/hugo-theme-tailwindcss-starter
 	url = https://github.com/K3tan/hugo-theme-tailwindcss-starter.git
+[submodule "themes/hugo-xmin"]
+	path = themes/hugo-xmin
+	url = https://github.com/K3tan/hugo-xmin.git
