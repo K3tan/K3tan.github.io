@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A minimal Hugo website"
+title = "Ketan Karambelkar"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
@@ -8,8 +8,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 
 [permalinks]
-    post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
+    post = "/blog/:year/:slug/"
+    note = "/note/:year/:slug/"
 
 [[menu.main]]
     name = "Home"
@@ -20,17 +20,17 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
+    name = "Blog"
+    url = "/post/"
     weight = 3
+#[[menu.main]]
+#    name = "Tags"
+#    url = "/tags/"
+#    weight = 4
 [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-[[menu.main]]
-    name = "Subscribe"
+    name = "RSS"
     url = "/index.xml"
 
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 -- 2019 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+    footer = "&copy; [Ketan Karambelkar](/) 2019"
